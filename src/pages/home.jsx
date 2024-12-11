@@ -5,6 +5,7 @@ import { FaLinkedin, FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
 
 import About from "../components/about";
 import Experience from "../components/experience";
+import Projects from "../components/projects";
 
 export default function Home() {
   return (
@@ -17,6 +18,14 @@ export default function Home() {
             <h4 className="lg:text-[1.5rem] text-[20px]">
               Frontend & Mobile App Developer
             </h4>
+            <div className="mt-5 font-sans">
+              <p>
+                <b>Email:</b> victoryohanna@gmail.com
+              </p>
+              <p>
+                <b>Phone N0:</b> +2348131595178
+              </p>
+            </div>
             <div className="mt-10 hidden lg:block text-lg">
               <ul>
                 <li className="mb-2 ">
@@ -55,6 +64,9 @@ export default function Home() {
           </div>
           <div>
             <Experience />
+          </div>
+          <div>
+            <Projects />
           </div>
         </div>
       </div>

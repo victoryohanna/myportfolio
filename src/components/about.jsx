@@ -1,7 +1,7 @@
 
 export default function About() {
   return (
-    <div className="text-justify text-lg font-serif">
+    <div className="text-justify  font-serif">
       <div className="mt-5 mb-10 text-2xl">
         <h1 className="font-bold">About</h1>
       </div>
