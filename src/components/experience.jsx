@@ -16,6 +16,7 @@ export default function Experience() {
                 </div>
                 <div className="text-justify mt-2 mb-4 md:w-3/4">
                   <h2 className="font-bold text-lg">{item.role}</h2>
+                  <h2 className="mb-4 text-lg">{item.company}</h2>
                   <p>{item.experience}</p>
                 </div>
               </div>
